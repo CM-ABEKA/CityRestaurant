@@ -1,0 +1,222 @@
+
+
+body{
+	background-color: rgb(16, 16, 26);
+	justify-content: center;
+}
+
+
+
+.logo{
+	background-color: #101010;
+	background-blend-mode: normal;	
+	background-image: url(/images/cappuccino-756490_640.jpg);
+	background-size: 33%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100px;
+	
+	padding: 100px;
+	margin: 2px;
+	display: block;
+	border-radius: 20px;
+}
+
+.main_title{
+	font-family: 'Zilla Slab Highlight', cursive;
+	color: yellow;
+	vertical-align: middle;
+	font-size: 40px;
+	
+	
+}
+.nav{
+	/* border: solid white; */
+	padding: 30px;
+	margin: 20px;
+}
+
+.navigation{
+	color: white;
+	padding: 5px 010px;
+	margin: 5px;	
+	background-color: rgb(17, 97, 89);
+	border-radius: 15px;
+	text-align: center;
+	
+}
+
+h3{
+	
+	color: gold;
+	font-family: 'Orelega One', cursive;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+.price{
+	font-family: 'Raleway', sans-serif;
+}
+	
+
+
+.menu_itms{
+	padding: 30px;
+	margin: 5px;
+	background-color: #aa2d2d;
+	min-width: 25ch;
+
+	
+}
+.menu{
+	
+	background-blend-mode: multiply;
+	color: white;
+	justify-content:  center;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.menu >*{
+	flex: 1 1 33%;
+	
+	border-radius: 5px;
+}	
+
+input[type=submit]{
+    padding: 5px 30px;
+	background-color: turquoise;
+	border: none;
+	border-radius: 10px;
+	opacity: .7;
+	
+	bottom: 20px;
+	left: 20px;
+}
+
+.main_text{
+	/* background-color:  #aa2d2d; */
+	padding: 30px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+.time{
+	margin: 10px;
+	padding: 10px;
+	
+	background-blend-mode: multiply;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+.head{
+	background-color: #101010;
+    background-image: url(/images/cofee-logo.png);
+	background-position: center;
+    background-blend-mode: overlay;
+	font-size: 30px;
+    background-repeat: no-repeat;
+	background-position: top center;
+	display: inline-block;
+	padding: 20px;
+	margin 0;
+	text-align: center;
+	width: 100%;
+
+	/* text-align: center;
+    padding: 5em 0;
+    background-color: #444;
+    background-image: url(/images/cofee-logo.png), radial-gradient(#444, #111);
+    background-blend-mode: overlay;
+    background-size: ;
+    color: yellow;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top; */
+}
+	
+   /* }
+.head>*{
+	
+	flex: 1 1 100%;
+} */
+/* Backgrounds of menu Items sushi, cocktails, salmonfish, burger, pizza, juice, espresso, steak*/
+
+#salmonfish{
+	background-image: url(/images/salmon-518032_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+
+}
+#salad{
+	background-image: url(/images/veggies.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#burger{
+	background-image: url(/images/burger-4614022_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#juice{
+	background-image: url(/images/vegetable-juices-1725835_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#sushi{
+	background-image: url(/images/sushi-5002639_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#cocktails{
+	background-image: url(/images/cocktails-1869868_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#steak{
+	background-image: url(/images/steak-3766548_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#espresso{
+	background-image: url(/images/coffee-4618705_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#pizza{
+	background-image: url(/images/cheese-164872_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#fries{
+	background-image: url(/images/french-fries-923687_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#rice{
+	background-image: url(/images/fried-2509089_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
+#corn{
+	background-image: url(/images/corn-5942859_640.jpg);
+	background-blend-mode: soft-light;
+	background-color: #444;
+	background-position: center;
+}
