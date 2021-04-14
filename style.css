@@ -116,7 +116,7 @@ input[type=submit]{
 }
 .head{
 	background-color: #101010;
-    background-image: url(/cofee-logo.png);
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490_960_720.jpg);
 	background-position: center;
     background-blend-mode: overlay;
 	font-size: 30px;
@@ -148,74 +148,74 @@ input[type=submit]{
 /* Backgrounds of menu Items sushi, cocktails, salmonfish, burger, pizza, juice, espresso, steak*/
 
 #salmonfish{
-	background-image: url(salmon-518032_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 
 }
 #salad{
-	background-image: url(veggies.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2018/04/21/03/47/food-3337621_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #burger{
-	background-image: url(burger-4614022_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2019/11/09/17/02/burger-4614022_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #juice{
-	background-image: url(vegetable-juices-1725835_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #sushi{
-	background-image: url(sushi-5002639_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639__340.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #cocktails{
-	background-image: url(cocktails-1869868_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2016/11/29/13/33/cocktails-1869868_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #steak{
-	background-image: url(steak-3766548_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2018/10/22/22/18/steak-3766548_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #espresso{
-	background-image: url(coffee-4618705_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2019/11/11/15/32/coffee-4618705_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #pizza{
-	background-image: url(cheese-164872_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #fries{
-	background-image: url(french-fries-923687_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2015/09/05/01/05/french-fries-923687_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #rice{
-	background-image: url(fried-2509089_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2017/07/16/11/57/fried-2509089_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #corn{
-	background-image: url(corn-5942859_640.jpg);
+	background-image: url(https://cdn.pixabay.com/photo/2021/01/23/15/58/corn-5942859_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
