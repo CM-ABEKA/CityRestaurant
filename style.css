@@ -148,74 +148,74 @@ input[type=submit]{
 /* Backgrounds of menu Items sushi, cocktails, salmonfish, burger, pizza, juice, espresso, steak*/
 
 #salmonfish{
-	background-image: url(/salmon-518032_640.jpg);
+	background-image: url(salmon-518032_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 
 }
 #salad{
-	background-image: url(/veggies.jpg);
+	background-image: url(veggies.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #burger{
-	background-image: url(/burger-4614022_640.jpg);
+	background-image: url(burger-4614022_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #juice{
-	background-image: url(/vegetable-juices-1725835_640.jpg);
+	background-image: url(vegetable-juices-1725835_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #sushi{
-	background-image: url(/sushi-5002639_640.jpg);
+	background-image: url(sushi-5002639_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #cocktails{
-	background-image: url(/cocktails-1869868_640.jpg);
+	background-image: url(cocktails-1869868_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #steak{
-	background-image: url(/steak-3766548_640.jpg);
+	background-image: url(steak-3766548_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #espresso{
-	background-image: url(/coffee-4618705_640.jpg);
+	background-image: url(coffee-4618705_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #pizza{
-	background-image: url(/cheese-164872_640.jpg);
+	background-image: url(cheese-164872_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #fries{
-	background-image: url(/french-fries-923687_640.jpg);
+	background-image: url(french-fries-923687_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #rice{
-	background-image: url(/fried-2509089_640.jpg);
+	background-image: url(fried-2509089_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
 }
 #corn{
-	background-image: url(/corn-5942859_640.jpg);
+	background-image: url(corn-5942859_640.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
