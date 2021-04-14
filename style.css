@@ -6,30 +6,14 @@ body{
 }
 
 
-
-/* .logo{
-	background-color: #101010;
-	background-blend-mode: normal;	
-	background-image: url(/images/cappuccino-756490_640.jpg);
-	background-size: 33%;
-	background-repeat: no-repeat;
-	background-position: center;
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100px;
-	
-	padding: 100px;
-	margin: 2px;
-	display: block;
-	border-radius: 20px;
-} */
-
 .main_title{
 	font-family: 'Courgette', cursive;
 	color: yellow;
-	vertical-align: middle;
+	
 	font-size: 40px;
+	
+	text-align: center;
+	opacity: 1;
 	
 	
 }
@@ -40,12 +24,13 @@ body{
 }
 
 .navigation{
-	color: white;
+	color: black;
 	padding: 5px 010px;
 	margin: 5px;	
-	background-color: rgb(17, 97, 89);
+	background-color: cyan;
 	border-radius: 15px;
 	text-align: center;
+	text-decoration: none;
 	
 }
 
@@ -54,12 +39,26 @@ h3{
 	color: gold;
 	font-family: 'Orelega One', cursive;
 	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
+	font-size: 45px;
+	left: 50%;
+}
+i{
+	font-size: 20px;
 }
 .price{
 	font-family: 'Raleway', sans-serif;
-}
+	font-size: 50px;
+	text-align: left;
 	
+	
+}
+
+.about{
+	text-align: center;
+	background-color: #101010;
+	padding: 10px;
+	opacity: .9;
+}	
 
 
 .menu_itms{
@@ -77,32 +76,29 @@ h3{
 	justify-content:  center;
 	display: flex;
 	flex-wrap: wrap;
+	z-index: -3;
 	
 }
 .menu >*{
 	flex: 1 1 33%;
 	
-	border-radius: 5px;
+	border-radius: 30px;
 }	
 
-input[type=submit]{
-    padding: 5px 30px;
-	background-color: turquoise;
-	border: none;
-	border-radius: 10px;
-	opacity: .7;
-	
-	bottom: 20px;
-	left: 20px;
+.menu_description{
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
 }
 
-.main_text{
+.paragraph_text{
 	/* background-color:  #aa2d2d; */
 	padding: 30px;
 	color: white;
 	font-size: 20px;
 	border-radius: 5px;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 	
 }
 .time{
@@ -114,10 +110,13 @@ input[type=submit]{
 	text-align: center;
 	font-size: 30px;
 }
+
 .head{
 	background-color: #101010;
     background-image: url(https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712__340.png);
-	background-position: center;
+	/* background-image: url(https://media1.giphy.com/media/7JzHsh3UTip20/giphy.gif); */
+	opacity: .9;
+	background-position: left;
     background-blend-mode: soft-light;
 	font-size: 30px;
     background-repeat: no-repeat;
@@ -127,7 +126,10 @@ input[type=submit]{
 	margin 0;
 	text-align: center;
 	width: 100%;
-
+	position: relative;
+	bottom: o;
+	border-radius: 15px;
+	
 	/* text-align: center;
     padding: 5em 0;
     background-color: #444;
@@ -152,6 +154,7 @@ input[type=submit]{
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 
 }
 #salad{
@@ -159,64 +162,97 @@ input[type=submit]{
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #burger{
 	background-image: url(https://cdn.pixabay.com/photo/2019/11/09/17/02/burger-4614022_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #juice{
 	background-image: url(https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #sushi{
 	background-image: url(https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639__340.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 #cocktails{
 	background-image: url(https://cdn.pixabay.com/photo/2016/11/29/13/33/cocktails-1869868_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #steak{
 	background-image: url(https://cdn.pixabay.com/photo/2018/10/22/22/18/steak-3766548_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #espresso{
 	background-image: url(https://cdn.pixabay.com/photo/2019/11/11/15/32/coffee-4618705_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #pizza{
 	background-image: url(https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #fries{
 	background-image: url(https://cdn.pixabay.com/photo/2015/09/05/01/05/french-fries-923687_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #rice{
 	background-image: url(https://cdn.pixabay.com/photo/2017/07/16/11/57/fried-2509089_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 #corn{
 	background-image: url(https://cdn.pixabay.com/photo/2021/01/23/15/58/corn-5942859_960_720.jpg);
 	background-blend-mode: soft-light;
 	background-color: #444;
 	background-position: center;
+	background-repeat: no-repeat;
+}
+.myvideo{
+	position: absolute;
+  left: 0;
+  top: 0;
+    
+  min-width: 100%;
+  max-height: 100%;
+  opacity: .2;
+  z-index: -1;
+  
+
+}
+input[type=submit]{
+    padding: 5px 30px;
+	background-color: turquoise;
+	border: none;
+	border-radius: 10px;
+	opacity: .6;
+	order: 3;
+	z-index: -4;	
 }
