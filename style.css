@@ -7,7 +7,7 @@ body{
 
 
 
-.logo{
+/* .logo{
 	background-color: #101010;
 	background-blend-mode: normal;	
 	background-image: url(/images/cappuccino-756490_640.jpg);
@@ -23,7 +23,7 @@ body{
 	margin: 2px;
 	display: block;
 	border-radius: 20px;
-}
+} */
 
 .main_title{
 	font-family: 'Courgette', cursive;
@@ -118,7 +118,7 @@ input[type=submit]{
 	background-color: #101010;
     background-image: url(https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712__340.png);
 	background-position: center;
-    background-blend-mode: overlay;
+    background-blend-mode: soft-light;
 	font-size: 30px;
     background-repeat: no-repeat;
 	background-position: top center;
