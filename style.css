@@ -12,7 +12,7 @@ body{
 	background-color: rgba(251,246, 251, .1);
 	
 	
-	font-size: 4vw;	
+	font-size: 3vw;	
 	text-align: center;
 	opacity: 1;
 
@@ -37,7 +37,7 @@ body{
 	font-size: 4vw;
 	display: inline-flex;
 	transition: .2s;
-	
+	font-weight: 300;
 	flex-grow: 0;
 	
 	
@@ -280,7 +280,8 @@ input[type=submit]{
 	opacity: .6;
 	order: 3;
 	/*z-index: -4;*/
-	font-weight: 700;	
+	font-weight: 800;	
+	font-size: 1.5em;
 	transition: .2s;
 }
 input[type=submit]:hover{
