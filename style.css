@@ -7,11 +7,10 @@ body{
 
 
 .main_title{
-	font-family: 'Courgette', cursive;
+	font-family: sans-serif;
 	color: yellow;
 	
-	font-size: 40px;
-	
+	font-size: 4vw;	
 	text-align: center;
 	opacity: 1;
 	
@@ -25,12 +24,14 @@ body{
 
 .navigation{
 	color: black;
-	padding: 5px 010px;
+	padding: 10px;
 	margin: 5px;	
 	background-color: cyan;
 	border-radius: 15px;
 	text-align: center;
 	text-decoration: none;
+	float:  initial;
+	font-size: 4vw;
 	
 }
 
@@ -95,7 +96,7 @@ i{
 	/* background-color:  #aa2d2d; */
 	padding: 30px;
 	color: white;
-	font-size: 20px;
+	font-size: 3vw;
 	border-radius: 5px;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
@@ -108,7 +109,10 @@ i{
 	background-blend-mode: multiply;
 	color: white;
 	text-align: center;
-	font-size: 30px;
+	font-size: 4vw;
+}
+#contact{
+	font-size: 4vw;
 }
 
 .head{
