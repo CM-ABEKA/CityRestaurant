@@ -8,11 +8,14 @@ body{
 
 .main_title{
 	font-family: sans-serif;
-	color: yellow;
+	color: gold;
+	background-color: rgba(251,246, 251, .1);
+	
 	
 	font-size: 4vw;	
 	text-align: center;
 	opacity: 1;
+
 	
 	
 }
@@ -25,14 +28,23 @@ body{
 .navigation{
 	color: black;
 	padding: 10px;
-	margin: 5px;	
+	margin: 10px;	
 	background-color: cyan;
-	border-radius: 15px;
+	border-radius: 40px;
 	text-align: center;
 	text-decoration: none;
-	float:  initial;
+	flex: initial;
 	font-size: 4vw;
+	display: inline-flex;
+	transition: .2s;
 	
+	flex-grow: 0;
+	
+	
+}
+.navigation:hover{
+	transform: scale(1.1);
+	background-color: yellow;
 }
 
 h3{
@@ -126,7 +138,7 @@ i{
     background-repeat: no-repeat;
 	background-position: top center;
 	display: inline-block;
-	padding: 20px;
+	padding: ;
 	margin 0;
 	text-align: center;
 	width: 100%;
@@ -138,7 +150,7 @@ i{
     padding: 5em 0;
     background-color: #444;
     background-image: url(/images/cofee-logo.png), radial-gradient(#444, #111);
-    background-blend-mode: overlay;
+    background-blend-mode: inherit;
     background-size: ;
     color: yellow;
     background-attachment: fixed;
@@ -155,36 +167,45 @@ i{
 
 #salmonfish{
 	background-image: url(https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
+	filter: ;
 
 }
+
+@media(hover: hover) and (pointer: fine){:is(#salmonfish, #salad, #burger, #juice, #sushi, #cocktails, #steak, #rice, #espresso, #pizza, #corn, #fries):hover{
+	transform: scale(1.002);
+	background-color: rgba(16 16 16 0.9);
+	background-blend-mode: overlay;
+	text-transform: 
+
+}}
 #salad{
 	background-image: url(https://cdn.pixabay.com/photo/2018/04/21/03/47/food-3337621_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #burger{
 	background-image: url(https://cdn.pixabay.com/photo/2019/11/09/17/02/burger-4614022_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #juice{
 	background-image: url(https://cdn.pixabay.com/photo/2016/10/09/14/00/vegetable-juices-1725835_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #sushi{
 	background-image: url(https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639__340.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-size: 100%;
@@ -192,49 +213,49 @@ i{
 }
 #cocktails{
 	background-image: url(https://cdn.pixabay.com/photo/2016/11/29/13/33/cocktails-1869868_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #steak{
 	background-image: url(https://cdn.pixabay.com/photo/2018/10/22/22/18/steak-3766548_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #espresso{
 	background-image: url(https://cdn.pixabay.com/photo/2019/11/11/15/32/coffee-4618705_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #pizza{
 	background-image: url(https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #fries{
 	background-image: url(https://cdn.pixabay.com/photo/2015/09/05/01/05/french-fries-923687_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #rice{
 	background-image: url(https://cdn.pixabay.com/photo/2017/07/16/11/57/fried-2509089_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 #corn{
 	background-image: url(https://cdn.pixabay.com/photo/2021/01/23/15/58/corn-5942859_960_720.jpg);
-	background-blend-mode: soft-light;
+	background-blend-mode: inherit;
 	background-color: #444;
 	background-position: center;
 	background-repeat: no-repeat;
